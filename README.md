@@ -39,6 +39,10 @@ python -m uvicorn main:app --host 127.0.0.1 --port 8000
 
 Use a virtual environment if preferred. See [the app guide](app/README.md) for development mode, environment variables, checkpoint format, and Docker deployment.
 
+## Deploy to Vercel
+
+Follow [the Vercel guide](app/VERCEL.md). Import this repository with Root Directory `app` and Framework Preset **FastAPI**. The supplied build script publishes the React frontend alongside the prediction API. Enable `VERCEL_SUPPORT_LARGE_FUNCTIONS=1` with Fluid compute and Active CPU for the CPU-only PyTorch bundle.
+
 ## Reproduce the experiments
 
 Follow [the notebook run guide](notebooks/README.md). The source dataset is the Kaggle dataset `abdallahalidev/plantvillage-dataset`, using the `color` folder's ten tomato classes. Obtain the images separately and retain the existing `data/splits.csv` for comparisons with the saved results. The frozen split has 12,698 training, 2,728 validation, and 2,734 test images; fingerprint `7cf95c207559517a`.
