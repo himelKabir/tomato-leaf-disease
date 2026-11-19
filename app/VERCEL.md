@@ -2,7 +2,16 @@
 
 The repository includes a Vercel entrypoint for FastAPI and a build script for React. Both use one deployment URL: Vercel serves built frontend assets from `public/`, and FastAPI handles `/api/health`, `/api/info`, and `/api/predict`. No external backend URL or CORS configuration is needed.
 
-## Deploy from GitHub
+## Existing deployment
+
+- Live app: https://tomato-leaf-disease-sigma.vercel.app
+- Dashboard: https://vercel.com/himelkabirs-projects/tomato-leaf-disease
+- Plan: Hobby
+- Repository: `himelKabir/tomato-leaf-disease`; production branch: `main`
+
+The repository is connected to Vercel for automatic deployment. Update the app, commit your changes, and push to `main` to publish them. The project settings below are already configured for this deployment. Vercel's local `.vercel/` metadata and `.env.local` credentials are ignored by Git.
+
+## Deploy from GitHub into another account
 
 1. Commit and push the Vercel files from the repository root.
 2. Sign in at https://vercel.com with GitHub and choose **Add New -> Project**.

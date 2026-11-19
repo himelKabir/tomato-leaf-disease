@@ -41,7 +41,9 @@ Use a virtual environment if preferred. See [the app guide](app/README.md) for d
 
 ## Deploy to Vercel
 
-Follow [the Vercel guide](app/VERCEL.md). Import this repository with Root Directory `app` and Framework Preset **FastAPI**. The supplied build script publishes the React frontend alongside the prediction API. Enable `VERCEL_SUPPORT_LARGE_FUNCTIONS=1` with Fluid compute and Active CPU for the CPU-only PyTorch bundle.
+Live app: [Tomato Leaf Check](https://tomato-leaf-disease-sigma.vercel.app).
+
+This repository is connected to the Vercel project `tomato-leaf-disease`; pushes to `main` deploy automatically. Follow [the Vercel guide](app/VERCEL.md) for project settings or deployment into another account. The project uses Root Directory `app`, the **FastAPI** framework, and `VERCEL_SUPPORT_LARGE_FUNCTIONS=1` for the CPU-only PyTorch bundle.
 
 ## Reproduce the experiments
 
