@@ -1,0 +1,41 @@
+model,class,train images,precision %,recall %,f1 %
+MobileNetV2,Yellow leaf curl virus,3747,100.00 ± 0.00,99.92 ± 0.14,99.96 ± 0.07
+MobileNetV2,Bacterial spot,1497,99.79 ± 0.37,99.78 ± 0.19,99.79 ± 0.09
+MobileNetV2,Late blight,1330,99.09 ± 0.19,99.21 ± 0.52,99.15 ± 0.17
+MobileNetV2,Septoria leaf spot,1235,99.75 ± 0.22,99.14 ± 0.21,99.44 ± 0.19
+MobileNetV2,Spider mites,1169,99.60 ± 0.40,99.07 ± 1.01,99.33 ± 0.47
+MobileNetV2,Healthy,1114,99.59 ± 0.00,100.00 ± 0.00,99.79 ± 0.00
+MobileNetV2,Target spot,979,98.19 ± 1.61,99.69 ± 0.27,98.93 ± 0.92
+MobileNetV2,Early blight,697,99.13 ± 0.98,96.75 ± 1.72,97.92 ± 0.40
+MobileNetV2,Leaf mold,669,98.59 ± 0.69,100.00 ± 0.00,99.29 ± 0.35
+MobileNetV2,Mosaic virus,261,98.83 ± 1.01,100.00 ± 0.00,99.41 ± 0.51
+ResNet50,Yellow leaf curl virus,3747,99.79 ± 0.26,100.00 ± 0.00,99.90 ± 0.13
+ResNet50,Bacterial spot,1497,99.89 ± 0.19,99.46 ± 0.67,99.68 ± 0.28
+ResNet50,Late blight,1330,99.55 ± 0.20,99.43 ± 0.20,99.49 ± 0.17
+ResNet50,Septoria leaf spot,1235,100.00 ± 0.00,99.63 ± 0.64,99.81 ± 0.32
+ResNet50,Spider mites,1169,99.87 ± 0.23,99.73 ± 0.46,99.80 ± 0.20
+ResNet50,Healthy,1114,99.59 ± 0.00,100.00 ± 0.00,99.79 ± 0.00
+ResNet50,Target spot,979,99.54 ± 0.79,99.85 ± 0.27,99.69 ± 0.35
+ResNet50,Early blight,697,99.56 ± 0.38,98.70 ± 0.00,99.13 ± 0.19
+ResNet50,Leaf mold,669,98.82 ± 1.07,99.52 ± 0.82,99.17 ± 0.74
+ResNet50,Mosaic virus,261,99.40 ± 1.03,99.40 ± 1.03,99.40 ± 1.03
+Custom CNN,Yellow leaf curl virus,3747,99.67 ± 0.19,99.71 ± 0.31,99.69 ± 0.16
+Custom CNN,Bacterial spot,1497,99.04 ± 0.64,99.57 ± 0.19,99.30 ± 0.40
+Custom CNN,Late blight,1330,99.32 ± 0.34,98.87 ± 0.39,99.09 ± 0.26
+Custom CNN,Septoria leaf spot,1235,99.12 ± 0.43,97.90 ± 0.57,98.51 ± 0.49
+Custom CNN,Spider mites,1169,98.93 ± 0.83,98.53 ± 0.46,98.73 ± 0.64
+Custom CNN,Healthy,1114,99.59 ± 0.00,100.00 ± 0.00,99.79 ± 0.00
+Custom CNN,Target spot,979,98.32 ± 1.05,99.38 ± 0.71,98.85 ± 0.83
+Custom CNN,Early blight,697,99.12 ± 0.38,97.40 ± 0.65,98.25 ± 0.50
+Custom CNN,Leaf mold,669,97.67 ± 1.44,99.29 ± 0.00,98.47 ± 0.73
+Custom CNN,Mosaic virus,261,98.24 ± 0.02,99.40 ± 1.03,98.81 ± 0.52
+VGG16,Yellow leaf curl virus,3747,99.92 ± 0.07,99.96 ± 0.07,99.94 ± 0.06
+VGG16,Bacterial spot,1497,99.36 ± 0.32,99.89 ± 0.19,99.62 ± 0.19
+VGG16,Late blight,1330,99.21 ± 0.52,99.21 ± 0.52,99.21 ± 0.49
+VGG16,Septoria leaf spot,1235,99.38 ± 0.22,98.64 ± 2.04,99.00 ± 1.09
+VGG16,Spider mites,1169,98.52 ± 0.86,98.27 ± 2.05,98.39 ± 1.46
+VGG16,Healthy,1114,99.31 ± 0.24,100.00 ± 0.00,99.65 ± 0.12
+VGG16,Target spot,979,98.18 ± 2.07,98.77 ± 0.53,98.47 ± 1.30
+VGG16,Early blight,697,98.73 ± 2.19,98.05 ± 0.65,98.38 ± 0.83
+VGG16,Leaf mold,669,98.80 ± 1.50,98.10 ± 1.49,98.45 ± 1.49
+VGG16,Mosaic virus,261,99.40 ± 1.03,98.81 ± 1.03,99.10 ± 0.89

@@ -1,0 +1,52 @@
+[
+  {
+    "label": 0,
+    "folder": "Tomato___Bacterial_spot",
+    "name": "Bacterial spot"
+  },
+  {
+    "label": 1,
+    "folder": "Tomato___Early_blight",
+    "name": "Early blight"
+  },
+  {
+    "label": 2,
+    "folder": "Tomato___Late_blight",
+    "name": "Late blight"
+  },
+  {
+    "label": 3,
+    "folder": "Tomato___Leaf_Mold",
+    "name": "Leaf mold"
+  },
+  {
+    "label": 4,
+    "folder": "Tomato___Septoria_leaf_spot",
+    "name": "Septoria leaf spot"
+  },
+  {
+    "label": 5,
+    "folder": "Tomato___Spider_mites Two-spotted_spider_mite",
+    "name": "Spider mites"
+  },
+  {
+    "label": 6,
+    "folder": "Tomato___Target_Spot",
+    "name": "Target spot"
+  },
+  {
+    "label": 7,
+    "folder": "Tomato___Tomato_Yellow_Leaf_Curl_Virus",
+    "name": "Yellow leaf curl virus"
+  },
+  {
+    "label": 8,
+    "folder": "Tomato___Tomato_mosaic_virus",
+    "name": "Mosaic virus"
+  },
+  {
+    "label": 9,
+    "folder": "Tomato___healthy",
+    "name": "Healthy"
+  }
+]

@@ -1,0 +1,28 @@
+{
+  "created_utc": "2026-11-14T21:38:12+00:00",
+  "dataset": "Kaggle abdallahalidev/plantvillage-dataset, color folder, 10 tomato classes",
+  "dataset_folder": "/kaggle/input/datasets/abdallahalidev/plantvillage-dataset/color",
+  "paths_in_splits_csv": "relative to the color folder",
+  "seed": 42,
+  "split_fractions": {
+    "train": 0.7,
+    "val": 0.15,
+    "test": 0.15
+  },
+  "grouping_method": "perceptual hash (DCT, 64 bits, 8 flips/rotations compared) + the same series and leaf number in the file name",
+  "hash_threshold_bits": 6,
+  "images": 18160,
+  "groups": 17078,
+  "images_sharing_a_group": 1785,
+  "numbered_leaves_in_file_names": 1441,
+  "photos_joined_by_file_name": 509,
+  "of_those_missed_by_the_hash": 471,
+  "groups_with_more_than_one_class": 162,
+  "largest_gap_from_split_fractions_pct_points": 0.4,
+  "unreadable_images_left_out": [],
+  "split_sizes": {
+    "train": 12698,
+    "val": 2728,
+    "test": 2734
+  }
+}
